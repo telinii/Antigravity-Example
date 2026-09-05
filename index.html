@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="text-light">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top glass-nav">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#inicio">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#sobre">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#habilidades">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projetos">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header / Hero Section -->
+    <header class="hero-section d-flex align-items-center" id="inicio">
+        <div class="container text-center position-relative z-1">
+            <h1 class="display-3 fw-bold mb-3 animate-up">Hi, I'm <span class="text-gradient">Luca Telini Crozara</span></h1>
+            <h2 class="h4 fw-light mb-4 animate-up delay-1">Back-End Developer & AI/LLM Enthusiast</h2>
+            <p class="lead mb-5 mx-auto animate-up delay-2" style="max-width: 600px; color: var(--text-muted);">
+                Specialized in backend and passionate about AI, I transform complex data into smart, fast, and scalable solutions.
+            </p>
+            <a href="#projetos" class="btn btn-custom btn-lg animate-up delay-3">View my work</a>
+        </div>
+        <!-- Elementos de fundo dinâmicos -->
+        <div class="bg-shape shape-1"></div>
+        <div class="bg-shape shape-2"></div>
+    </header>
+
+    <!-- Sobre Mim -->
+    <section id="sobre" class="py-5 section-padding">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0 fade-in-section">
+                    <div class="glass-card p-4 p-md-5 rounded-4 h-100">
+                        <h2 class="fw-bold mb-4">About Me</h2>
+                        <p>I'm a 4th-semester Computer Science student focused on backend development with TypeScript. I'm also passionate about AI and LLMs.</p>
+                        <p>I build REST APIs with authentication, authorization, database integration, secure password handling and deployment. Currently seeking an internship where I can contribute to real-world projects and grow as a backend/software engineer.</p>
+                        <p>Linux enthusiast — currently using CachyOS. <em>"People you know and live with probably won't support you. Maybe people you don't know will."</em></p>
+                    </div>
+                </div>
+                <div class="col-lg-6 fade-in-section delay-1">
+                    <div class="glass-card p-4 p-md-5 rounded-4 h-100">
+                        <h3 class="h5 fw-bold mb-3"><i class="bi bi-mortarboard-fill text-gradient me-2"></i> Education and Training </h3>
+                        <p class="mb-4">Bachelor's Degree in Computer Science<br><small class="text-muted-custom">UniFACEF - 2025 - 2028</small></p>
+                        <p class="mb-4"><br><small class="text-muted-custom">Antigravity Course - 2026</small></p>
+                        
+                        <h3 class="h5 fw-bold mb-3 mt-4"><i class="bi bi-briefcase-fill text-gradient me-2"></i> Experience</h3>
+                        <p class="mb-0">Back-end Developer<br><small class="text-muted-custom">Freelancer - 2026</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="py-5 section-padding bg-darker">
+        <div class="container text-center">
+            <h2 class="fw-bold mb-5 fade-in-section">My Skills</h2>
+            <div class="row justify-content-center gap-3 fade-in-section">
+                <div class="col-auto">
+                    <div class="skill-badge"><i class="bi bi-filetype-html"></i> HTML5</div>
+                </div>
+                <div class="col-auto">
+                    <div class="skill-badge"><i class="bi bi-filetype-css"></i> CSS3</div>
+                </div>
+                <div class="col-auto">
+                    <div class="skill-badge"><i class="bi bi-filetype-js"></i> JavaScript</div>
+                </div>
+                <div class="col-auto">
+                    <div class="skill-badge"><i class="bi bi-bootstrap"></i> Bootstrap 5</div>
+                </div>
+                <div class="col-auto">
+                    <div class="skill-badge"><i class="bi bi-git"></i> Git & GitHub</div>
+                </div>
+                <div class="col-auto">
+                    <div class="skill-badge"><i class="bi bi-palette"></i> UI/UX Design</div>
+                </div>
+                <div class="col-auto">
+                    <div class="skill-badge"><i class="bi bi-display"></i> Responsive Design</div>
+                </div>
+                <div class="col-auto">
+                    <div class="skill-badge"><i class="bi bi-cloud"></i> Cloud & Deployments</div>
+                </div>
+                <div class="col-auto">
+                    <div class="skill-badge"><i class="bi bi-filetype-sql"></i> SQL Server, Postgres, MySQL, MariaDB, Oracle</div>
+                </div>
+                <div class="col-auto">
+                    <div class="skill-badge"><i class="bi bi-filetype-py"></i> Python, Pandas, NumPy, Keras, Scikit-learn, TensorFlow</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos" class="py-5 section-padding">
+        <div class="container">
+            <h2 class="fw-bold text-center mb-5 fade-in-section">Featured Projects</h2>
+            <div class="row g-4">
+                <!-- Card 1 -->
+                <div class="col-md-4 fade-in-section">
+                    <div class="card h-100 project-card glass-card">
+                        <div class="card-img-top-placeholder bg-gradient-1"></div>
+                        <div class="card-body p-4">
+                            <h5 class="card-title fw-bold">Maintenance System</h5>
+                            <p class="card-text text-muted-custom">Personal-use maintenance system built with modern backend technologies.</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 p-4 pt-0">
+                            <a href="https://github.com/telinii/maintenance-system" target="_blank" class="btn btn-outline-custom btn-sm rounded-pill w-100">View on GitHub <i class="bi bi-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-md-4 fade-in-section delay-1">
+                    <div class="card h-100 project-card glass-card">
+                        <div class="card-img-top-placeholder bg-gradient-2"></div>
+                        <div class="card-body p-4">
+                            <h5 class="card-title fw-bold">Blog</h5>
+                            <p class="card-text text-muted-custom">A full-stack blog platform showcasing my REST API integration skills.</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 p-4 pt-0">
+                            <a href="https://github.com/telinii/blog" target="_blank" class="btn btn-outline-custom btn-sm rounded-pill w-100">View on GitHub <i class="bi bi-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-md-4 fade-in-section delay-2">
+                    <div class="card h-100 project-card glass-card">
+                        <div class="card-img-top-placeholder bg-gradient-3"></div>
+                        <div class="card-body p-4">
+                            <h5 class="card-title fw-bold">REST API TypeScript</h5>
+                            <p class="card-text text-muted-custom">API boilerplate with authentication, authorization, and secure password handling.</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 p-4 pt-0">
+                            <a href="https://github.com/telinii" target="_blank" class="btn btn-outline-custom btn-sm rounded-pill w-100">View on GitHub <i class="bi bi-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contato" class="py-5 bg-darker text-center border-top-custom">
+        <div class="container">
+            <h3 class="fw-bold mb-4 fade-in-section">Let's talk!</h3>
+            <div class="d-flex justify-content-center gap-4 mb-4 fade-in-section">
+                <a href="https://github.com/telinii" target="_blank" class="social-link" aria-label="GitHub"><i class="bi bi-github fs-2"></i></a>
+                <a href="https://www.linkedin.com/in/luca-telini-crozara-19a609315" target="_blank" class="social-link" aria-label="LinkedIn"><i class="bi bi-linkedin fs-2"></i></a>
+                <a href="https://instagram.com/lucatelini_" target="_blank" class="social-link" aria-label="Instagram"><i class="bi bi-instagram fs-2"></i></a>
+            </div>
+            <p class="text-muted-custom small mb-0">&copy; 2026 Luca Telini Crozara. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
